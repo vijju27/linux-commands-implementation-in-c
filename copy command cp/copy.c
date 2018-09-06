@@ -15,7 +15,7 @@ int main(int argc, char* argv[]){
 
   src = open(argv[1],O_RDONLY);
   if(src == -1){
-    perror("can't find the destination file");
+    perror("can't find the source file");
     exit(1);
   }
 
